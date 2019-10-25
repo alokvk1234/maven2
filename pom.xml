@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrogartifactory-snapshots</name>
+        <url>http://34.69.187.71:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>jfrogartifactory-releases</name>
+        <url>http://34.69.187.71:8081/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
 </project>
