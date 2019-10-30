@@ -29,7 +29,7 @@ node('maven-label') {
    my_ref_method "intellipaat"
    }
    stage('my_shared_lib') {
-   sayHello1 "devops"
+   sayHello "devops"
    }
    
 }
