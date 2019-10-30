@@ -24,6 +24,6 @@ node('maven-label') {
       archiveArtifacts 'target/*.jar'
    }
    stage('my_ref_meth') {
-      my_ref_method "Intellipaat"
+      my_ref_method "Intellipaat1"
    }
 }
